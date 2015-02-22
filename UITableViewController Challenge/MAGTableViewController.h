@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MAGTableViewController.h
 //  UITableViewController Challenge
 //
 //  Created by Martin Gendell on 2/22/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MAGTableViewController : UITableViewController
 
 @end
-
