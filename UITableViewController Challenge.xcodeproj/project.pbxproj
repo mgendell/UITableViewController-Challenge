@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		5B8879261A9A8BCF00C76036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8879251A9A8BCF00C76036 /* main.m */; };
 		5B8879291A9A8BCF00C76036 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8879281A9A8BCF00C76036 /* AppDelegate.m */; };
-		5B88792C1A9A8BCF00C76036 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88792B1A9A8BCF00C76036 /* ViewController.m */; };
 		5B88792F1A9A8BCF00C76036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B88792D1A9A8BCF00C76036 /* Main.storyboard */; };
 		5B8879311A9A8BCF00C76036 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8879301A9A8BCF00C76036 /* Images.xcassets */; };
 		5B8879341A9A8BCF00C76036 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8879321A9A8BCF00C76036 /* LaunchScreen.xib */; };
 		5B8879401A9A8BCF00C76036 /* UITableViewController_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88793F1A9A8BCF00C76036 /* UITableViewController_ChallengeTests.m */; };
+		5B88794B1A9A8D0400C76036 /* MAGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B88794A1A9A8D0400C76036 /* MAGTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		5B8879251A9A8BCF00C76036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B8879271A9A8BCF00C76036 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B8879281A9A8BCF00C76036 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B88792A1A9A8BCF00C76036 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5B88792B1A9A8BCF00C76036 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B88792E1A9A8BCF00C76036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B8879301A9A8BCF00C76036 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5B8879331A9A8BCF00C76036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5B8879391A9A8BCF00C76036 /* UITableViewController ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B88793E1A9A8BCF00C76036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B88793F1A9A8BCF00C76036 /* UITableViewController_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_ChallengeTests.m; sourceTree = "<group>"; };
+		5B8879491A9A8D0400C76036 /* MAGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGTableViewController.h; sourceTree = "<group>"; };
+		5B88794A1A9A8D0400C76036 /* MAGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				5B8879271A9A8BCF00C76036 /* AppDelegate.h */,
 				5B8879281A9A8BCF00C76036 /* AppDelegate.m */,
-				5B88792A1A9A8BCF00C76036 /* ViewController.h */,
-				5B88792B1A9A8BCF00C76036 /* ViewController.m */,
 				5B88792D1A9A8BCF00C76036 /* Main.storyboard */,
+				5B8879491A9A8D0400C76036 /* MAGTableViewController.h */,
+				5B88794A1A9A8D0400C76036 /* MAGTableViewController.m */,
 				5B8879301A9A8BCF00C76036 /* Images.xcassets */,
 				5B8879321A9A8BCF00C76036 /* LaunchScreen.xib */,
 				5B8879231A9A8BCF00C76036 /* Supporting Files */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B88792C1A9A8BCF00C76036 /* ViewController.m in Sources */,
 				5B8879291A9A8BCF00C76036 /* AppDelegate.m in Sources */,
 				5B8879261A9A8BCF00C76036 /* main.m in Sources */,
+				5B88794B1A9A8D0400C76036 /* MAGTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
